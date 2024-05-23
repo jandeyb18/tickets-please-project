@@ -27,6 +27,7 @@ class CategoryResource extends Resource
                     ->required()
                     ->maxLength(255),
                 Forms\Components\TextInput::make('description')
+                    ->label('Description')
                     ->required()
                     ->maxLength(255),
             ]);
